@@ -26,6 +26,7 @@ nav{
     position: sticky;
     top: 0;
     z-index: 10;
+    background-color: white;
 }
 
 .nav-right img{
@@ -73,6 +74,8 @@ nav{
 
 .play-container{
     padding-left: 2%;
+    margin-left: 100px;
+    width: 1280px;
 }
 
 .row{
@@ -83,7 +86,7 @@ nav{
 
 .player-video{
     flex-basis: 69%;
-    width: 100%;
+    width: 1280px;
 }
 
 .player-video .description{
@@ -106,7 +109,7 @@ nav{
 }
 
 .description .subs-name{
-    margin-left: -30px;
+    margin-left: -100px;
 }
 
 .description .likes{
@@ -127,6 +130,7 @@ nav{
     background-color: #000;
     color: white;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 .description .likes img{
@@ -180,7 +184,7 @@ nav{
 }
 
 .com-box .add-com{
-    width: 500px;
+    width: 800px;
     border-top: #000;
     border-left: #000;
     border-right: #000;
@@ -209,6 +213,7 @@ nav{
     justify-content: left;
     flex-wrap: wrap;
     margin-left: 20px;
+    margin-bottom: 5px;
 }
 
 .static-com .artist-time{
@@ -217,6 +222,7 @@ nav{
     justify-content: left;
     flex-wrap: wrap;
     margin-left: 20px;
+    margin-bottom: 5px;
 }
 
 .static-text .artist-time .art-art{
@@ -238,4 +244,714 @@ nav{
     justify-content: left;
     flex-wrap: wrap;
     margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.static-com .url{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.static-com .likes-coment{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.static-com .answears{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: blue;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.com1 .prof-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.com1{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.com1 .user .user-info{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.user .user-info .time-user{
+    margin-left: 5px;
+}
+
+.user .text-incom{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com1 .likes-coment-user{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com1 .answears-user{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: blue;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.com2 .prof-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.com2{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.com2 .user2 .user-info2{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.user2 .user-info2 .time-user2{
+    margin-left: 5px;
+}
+
+.user2 .text-incom2{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com2 .likes-coment-user2{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com2 .answears-user2{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: blue;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.com3 .prof-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.com3{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.com3 .user3 .user-info3{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.user3 .user-info3 .time-user3{
+    margin-left: 5px;
+}
+
+.user3 .text-incom3{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com3 .likes-coment-user3{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com3 .answears-user3{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: blue;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.com4 .prof-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.com4{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.com4 .user4 .user-info4{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.user4 .user-info4 .time-user4{
+    margin-left: 5px;
+}
+
+.user4 .text-incom4{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com4 .likes-coment-user4{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com4 .answears-user4{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: blue;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.com5 .prof-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.com5{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.com5 .user5 .user-info5{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.user5 .user-info5 .time-user5{
+    margin-left: 5px;
+}
+
+.user5 .text-incom5{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com5 .likes-coment-user5{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com5 .answears-user5{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: blue;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.com6 .prof-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.com6{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.com6 .user6 .user-info6{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.user6 .user-info6 .time-user6{
+    margin-left: 5px;
+}
+
+.user6 .text-incom6{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com6 .likes-coment-user6{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com6 .answears-user6{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: blue;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.com7 .prof-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.com7{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.com7 .user7 .user-info7{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.user7 .user-info7 .time-user7{
+    margin-left: 5px;
+}
+
+.user7 .text-incom7{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com7 .likes-coment-user7{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com7 .answears-user7{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: blue;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.com8 .prof-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+.com8{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.com8 .user8 .user-info8{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.user8 .user-info8 .time-user8{
+    margin-left: 5px;
+}
+
+.user8 .text-incom8{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com8 .likes-coment-user8{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.com8 .answears-user8{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    text-decoration: blue;
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.right-sidebar{
+    padding-right: 2%;
+}
+
+.mix-player{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 530px;
+    margin-left: 20px;
+    border: 1px solid rgb(176, 174, 174);
+    margin-right: -200px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 480px;
+    overflow: scroll;
+}
+
+.mix-player::-webkit-scrollbar{
+    width: 7px;
+}
+
+.mix-player .thumbnail{
+    width: 180px;
+    margin-right: 0;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.mix-player .a-thumbnail{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.mix-player .text-thumbnail{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mix-player .ti-thumbnail{
+    margin-bottom: 30px;
+}
+
+.mix-player .thumbnail2{
+    width: 180px;
+    margin-right: 0;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.mix-player .a-thumbnail2{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.mix-player .text-thumbnail2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mix-player .ti-thumbnail2{
+    margin-bottom: 30px;
+}
+
+.mix-player .thumbnail3{
+    width: 180px;
+    margin-right: 0;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.mix-player .a-thumbnail3{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.mix-player .text-thumbnail3{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mix-player .ti-thumbnail3{
+    margin-bottom: 30px;
+}
+
+.mix-player .thumbnail4{
+    width: 180px;
+    margin-right: 0;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.mix-player .a-thumbnail4{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.mix-player .text-thumbnail4{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mix-player .ti-thumbnail4{
+    margin-bottom: 30px;
+}
+
+.mix-player .thumbnail5{
+    width: 180px;
+    margin-right: 0;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.mix-player .a-thumbnail5{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.mix-player .text-thumbnail5{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mix-player .ti-thumbnail5{
+    margin-bottom: 30px;
+}
+
+.add img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 530px;
+    margin-left: 20px;
+    margin-right: -190px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgb(176, 174, 174);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.related{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 530px;
+    margin-right: -250px;
+}
+
+.related .all{
+    border: 1px solid black;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.related .rock{
+    border: 1px solid rgb(176, 174, 174);
+    background: rgb(176, 174, 174);
+    border-radius: 5px;
+    padding: 10px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.related .rel{
+    border: 1px solid rgb(176, 174, 174);
+    background: rgb(176, 174, 174);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.related .artist{
+    border: 1px solid rgb(176, 174, 174);
+    background: rgb(176, 174, 174);
+    border-radius: 5px;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
 }
