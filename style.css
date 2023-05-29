@@ -987,6 +987,10 @@ nav{
     border-right: rgb(176, 174, 174);
 }
 
+.thumbnail-mix{
+    box-shadow: 0 5px 5px -5px rgb(176, 174, 174);
+}
+
 .thumbnail-mix img{
     width: 150px;
 }
@@ -1053,6 +1057,25 @@ nav{
     border-top: rgb(176, 174, 174);
     border-left: rgb(176, 174, 174);
     border-right: rgb(176, 174, 174);
+}
+
+.reels{
+    box-shadow: 0 5px 5px -5px rgb(176, 174, 174);
+}
+
+.reels .short-text{
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.reels .short-text2{
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.reels .short-text3{
+    margin-top: -10px;
+    margin-bottom: 40px;
 }
 
 .short-img1 img{
